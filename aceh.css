@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(https://i.pinimg.com/originals/1c/0f/2b/1c0f2b3a4d5e6a7e8d9f3b4c5e6a7e8d.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.awal{
+    height: 65vh;
+    width: 99.9vw;
+    background-size: cover;
+}
+.tema{
+    left: 45.25vw;
+    position: absolute;
+    top: 20vh;
+    color: #D6E3F0 ;
+    text-align: center;
+}
