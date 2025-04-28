@@ -61,36 +61,42 @@ body{
 }
 
 .blue{
-    margin-block: calc(2vw);
-    margin-left: 100px;
-    margin-top: 130px;     
-    margin-bottom: 3rem;
+    margin-block: calc(1vw);
+    left: 85px;
+    /* margin-top: 130px;      */
+    bottom: 3rem;
     height:5vh;
-    width: 23vw;
+    width: 20vw;
     background-color: #A7C1D0;
 }
 
-.blue H3{
+.blue h3{
     position: auto;
     font-size: 4vh;
     text-align: center;
     font-family: serif;
-    padding-top: 1vh;
-    top: -5vh;
-   
-    
-    /* width: 50vw; */
+    padding-bottom: 2vh;
 }
 .abad19{
     position: relative;
-    left: 7vw;
-    width: 4vw;
-    font-size: 3vh;
+    left: 2vw;
+    width: 52vw;
+    font-size:x-large;
+}
+
+.prng{
+    margin-block: calc(1vw);
+    left: 90px;
+    height: 3vh;
+    width: 17vw;
+    font-size: 1.5vw;
+    text-align: center;
+    background-color: #919eaac2;
 }
 
 .abu{
     top: 5vh;
-    margin-block: calc(2vw);
+    margin-block: calc(1vw);
     position: absolute;
     right: 1vw;
     /* margin-top: 130px;      */
