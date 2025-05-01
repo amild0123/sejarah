@@ -67,6 +67,7 @@ body{
     bottom: 3rem;
     height:5vh;
     width: 20vw;
+    font-size: 2vw;
     background-color: #A7C1D0;
 }
 
@@ -82,6 +83,17 @@ body{
     left: 2vw;
     width: 52vw;
     font-size:x-large;
+    text-align: justify;
+}
+
+.abad18{
+    position: relative;
+    left: 2vw;
+    width: 87vw;
+    font-size:x-large;
+    top: 2vh;
+    text-align: justify;
+
 }
 
 .prng{
@@ -92,18 +104,6 @@ body{
     font-size: 1.5vw;
     text-align: center;
     background-color: #919eaac2;
-}
-
-.abu{
-    top: 5vh;
-    margin-block: calc(1vw);
-    position: absolute;
-    right: 1vw;
-    /* margin-top: 130px;      */
-    /* margin-bottom: 3rem; */
-    height:30vh;
-    width: 30vw;
-    background-color: #D9D9D9;
 }
 
 .kronologi{
@@ -127,4 +127,49 @@ body{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2vw;
+}
+
+.abu{
+    top: 5vh;
+    margin-block: calc(1vw);
+    position: absolute;
+    right: 1vw;
+    /* margin-top: 130px;      */
+    /* margin-bottom: 3rem; */
+    height:150vh;
+    width: 30vw;
+    background-color: #D9D9D9;
+}
+
+.Ilus{
+    position: absolute;
+    top: 10vh;
+    width: 23vw;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .responsive-bg {
+      background-image: url('gambar-sedang.jpg');
+    }
+  }
+@media (max-width: 480px) {
+    .responsive-bg {
+      background-image: url('gambar-kecil.jpg');
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    nav {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    } 
+    nav h4 p{
+     font-size: 1.5em;
+     text-align: justify;
+    }
+    div[style*='flex'] {
+     flex-direction: column;
+    }
 }
